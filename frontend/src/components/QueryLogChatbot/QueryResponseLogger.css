@@ -1,0 +1,58 @@
+.query-botlogger-response {
+  grid-row: 2 / 3;
+  grid-column: 1 / 3;
+  height: 65vh;
+  overflow-y: auto;
+  border: 1px solid #0078d4; /* Azure Blue accent */
+  border-radius: 8px; /* Rounded corners for modern UI */
+  margin-top: 5px;
+  padding: 15px;
+  background: linear-gradient(145deg, #1e1e1e, #252525); /* Subtle gradient */
+  color: #ffffff; /* Bright text for readability */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Azure's preferred font */
+  font-size: 14px;
+}
+
+.query-botlogger-response h2 {
+  font-size: 22px;
+  color: #0078d4; /* Azure Blue */
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.logs {
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #1e1e1e; /* Dark background for logs */
+  border-radius: 6px;
+}
+
+.logs p {
+  background-color: #2a2a2a; /* Slightly darker for logs */
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #d1d1d1; /* Light text */
+  transition: background-color 0.3s ease;
+}
+
+.logs p:hover {
+  background-color: #0078d4; /* Highlight when hovered */
+  color: white;
+}
+
+.query-botlogger-response::-webkit-scrollbar {
+  width: 8px;
+}
+
+.query-botlogger-response::-webkit-scrollbar-thumb {
+  background-color: #0078d4; /* Accent color for scrollbar */
+  border-radius: 4px;
+}
+
+.query-botlogger-response::-webkit-scrollbar-track {
+  background: #252525; /* Match the background */
+}
